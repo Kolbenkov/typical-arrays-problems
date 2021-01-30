@@ -1,12 +1,17 @@
 
 exports.min = function min (array) {
-  return 0;
+  return Math.min.apply(Math, array);
 }
 
 exports.max = function max (array) {
-  return 0;
+  return Math.max.apply(Math, obj);
 }
 
 exports.avg = function avg (array) {
-  return 0;
+    var total = 0;
+for(var i = 0; i < grades.length; i++) {
+    total += grades[i];
+}
+var avg = total / grades.length;
+  return avg;
 }
